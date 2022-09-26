@@ -55,15 +55,15 @@ function game() {
     for (let i = 0; i < 5; i++) {
         result = playRound();
         console.log(result);
-        console.log("You Score:" + playerScore + " Computer Score:" + computerScore);
+        console.log("Your Score: " + playerScore + "  Computer Score: " + computerScore);
      }
 
      if (playerScore > computerScore) {
-        console.log("You Win!");
+        console.log("Final Result: You Win!");
      } else if (playerScore < computerScore) {
-        console.log("You Lose!");
+        console.log("Final Result: You Lose!");
      } else {
-        console.log("It's a Draw");
+        console.log("Final Result: It's a Draw");
      }
 }
 
